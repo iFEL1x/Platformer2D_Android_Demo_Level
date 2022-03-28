@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c0485b95333834b887c3ce7e561894, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  items:
+  - id: 1
+    tag: Potion
+    itemName: "\u0417\u0414\u041E\u0420\u041E\u0412\u042C\u0415+"
+    description: 
+    icon: {fileID: 21300000, guid: 0143010b963080b4c84a15e908854a14, type: 3}
+    type: 2
+    value: 50
+  - id: 2
+    tag: Potion
+    itemName: "\u0423\u0420\u041E\u041D+"
+    description: 
+    icon: {fileID: 21300000, guid: 07c2d975aa0b417489d7082bf18847b6, type: 3}
+    type: 0
+    value: 50
+  - id: 3
+    tag: Potion
+    itemName: "\u041F\u0420\u042B\u0416\u041E\u041A+"
+    description: 
+    icon: {fileID: 21300000, guid: 303aa982714d9ca4691523eb4dc02d27, type: 3}
+    type: 1
+    value: 10
+  - id: 0
+    tag: 
+    itemName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    value: 0
+  currentItem:
+    id: 3
+    tag: Potion
+    itemName: "\u041F\u0420\u042B\u0416\u041E\u041A+"
+    description: 
+    icon: {fileID: 21300000, guid: 303aa982714d9ca4691523eb4dc02d27, type: 3}
+    type: 1
+    value: 10
