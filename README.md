@@ -11,7 +11,19 @@
 ***"Создание 2D игры на Unity"*** онлайн школы Pixel.one
 Проект собран в Unity3D с использованием языка программирование C# и принципов ООП
 
-### В данном проекте применяется
+___
+## Скачивание и установка
+Для того что бы запустить проект на своем ПК
+
+* [Скачайте](https://unity3d.com/ru/get-unity/download) и [установите](https://docs.unity3d.com/2018.2/Documentation/Manual/InstallingUnity.html) Unity3D последней версии с официального сайта.
+* Скачайте проект по [ссылке](https://github.com/iFEL1x/Platformer2D_Android_Demo_Level/archive/refs/heads/main.zip) или по зеленой кнопке "Code\Download ZIP".
+    + Распакуйте архив на своем ПК.
+* Запустите Unity3D
+    + Рядом с кнопкой "Open" нажмите на стрелочку :arrow_down_small:, в открывшимся списке выберете "Add project from disk"
+    + Выберете путь распакавки проекта, нажмите "Add Project"
+
+___
+## В данном проекте применяется
 * **GameManager**, для часто используемых данных как для удобства обращения к ним, так и оптимизации проекта;
 * **ScriptableObject**, на котором построена база данных для хранения предметов инвентаря и отображения их
 в интерфейсе инвентаря игрока через компоненты класса GUILayout;
@@ -45,14 +57,3 @@ public class Menu : MonoBehaviour
 *Демонстрация финальной части игрового процесса:*
 
 ![PLATFORMER 2D](https://github.com/iFEL1x/iFEL1x/blob/main/Resources/Image/Gif/mp4%20to%20GIH(Platformer%202D).gif)
-
-___
-## Скачивание и установка
-Для того что бы запустить проект на своем ПК
-
-* [Скачайте](https://unity3d.com/ru/get-unity/download) и [установите](https://docs.unity3d.com/2018.2/Documentation/Manual/InstallingUnity.html) Unity3D последней версии с официального сайта.
-* Скачайте проект по [ссылке](https://github.com/iFEL1x/Platformer2D_Android_Demo_Level/archive/refs/heads/main.zip) или по зеленой кнопке "Code\Download ZIP".
-    + Распакуйте архив на своем ПК.
-* Запустите Unity3D
-    + Рядом с кнопкой "Open" нажмите на стрелочку :arrow_down_small:, в открывшимся списке выберете "Add project from disk"
-    + Выберете путь распакавки проекта, нажмите "Add Project"
