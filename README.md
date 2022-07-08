@@ -34,10 +34,22 @@ ___
 *Демонсрация кода:*
 
 ```C#
-public class GameManager : MonoBehaviour
+public class ItemBase : ScriptableObject
 {
-    public Dictionary<GameObject, BuffReciever> buffRecieverContainer;
-    public Dictionary<GameObject, ItemComponent> itemsContainer;
+    [SerializeField, HideInInspector] private List<Item> items;
+    [SerializeField] private Item currentItem;
+    private int _currentIndex;
+
+    public void CreateItem()
+    {
+        if (items == null)
+            items = new List<Item>();
+            
+        Item item = new Item();
+        items.Add(item);
+        currentItem = item;
+        _currentIndex = items.Count - 1;
+    }
 ...
 ```
 
