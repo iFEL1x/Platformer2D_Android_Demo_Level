@@ -1,4 +1,4 @@
-# <p align="center"> Platformer 2D DEMO Level </p>
+# <p align="center"> Platformer 2D DEMO</p>
 
 <div align="Center">
     <img src = https://github.com/iFEL1x/iFEL1x/blob/main/Resources/Screenshots/Screen(Platformer%202D)(1).png>
